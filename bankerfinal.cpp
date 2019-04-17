@@ -2,8 +2,8 @@
 #include<stdio.h>
 int main()
 {
- int n;    //n number of process
- int r;      // number of resources
+ int n;    //total n number of process
+ int r;      //total number of resources
  int i,j,k,cnt,cntt;
  int avail[10],p[10];
  int need[10][10],alloc[10][10],max[10][10];
